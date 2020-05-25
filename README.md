@@ -10,13 +10,15 @@ This repository contains the code for three infusion diffusion models:
 
 For all models, the main inpute files are:
 
-fname = A .txt file of all social ties between every single node in the group
+- fname = A .txt file of all social ties between pairs in the group (one row per pair)
+- pl_fname = A .txt file of all the designate Peer Leaders in the group
+- convert_fname = A .txt file of all the nodes that have been converted by an intervention
+- nc_fname = A .txt file of all the nodes that have not been converted by an intervention
+- all_nodes_fname = A .txt file of all the individuals in the entire group
 
-pl_fname = A .txt file of all the designate Peer Leaders in the group
-
-convert_fname = 
-nc_fname = 'noconversationsfile.txt'
-all_nodes_fname = 'allnodesfile.txt'
+Group all files in the same directory and run as follows:
+- ICM and LTM can be run independently
+- AJM must be run with a realistic 'h' value (which is determined by the 'Calculate_h' file
 
 References:
 Hu, L., Wilder, B., Yadav, A., Rice, E., & Tambe, M. (2017). Activating the" Breakfast Club": Modeling Influence Spread in Natural-World Social Networks. arXiv preprint arXiv:1710.00364. 
