@@ -21,6 +21,6 @@ Group all files in the same directory and run as follows:
 - AJM must be run with a realistic 'h' value (which is determined by the 'Calculate_h' file
 
 References:
-Hu, L., Wilder, B., Yadav, A., Rice, E., & Tambe, M. (2017). Activating the" Breakfast Club": Modeling Influence Spread in Natural-World Social Networks. arXiv preprint arXiv:1710.00364. 
+- Hu, L., Wilder, B., Yadav, A., Rice, E., & Tambe, M. (2017). Activating the" Breakfast Club": Modeling Influence Spread in Natural-World Social Networks. arXiv preprint arXiv:1710.00364. 
 
-Young, L., Mayaud, J., Suen, S., Rice, E. (2020). Modeling the Dynamism of HIV Information Diffusion in Multiplex Networks of Homeless Youth. Social Networks.
+- Young, L., Mayaud, J., Suen, S., Rice, E. (2020). Modeling the Dynamism of HIV Information Diffusion in Multiplex Networks of Homeless Youth. Social Networks.
