@@ -2,13 +2,19 @@
 
 A model to simulate the spread of information through social networks, as described in Hu et al. (2017) and Young et al. (2020).
 
-Three models are presented:
+This repository contains the code for three infusion diffusion models:
 
+- "Activation Jump Model" (AJM)
+- "Independent Cascade Model" (ICM)
+- 'Linear Threshold Model" (LTM)
 
+For all models, the main inpute files are:
 
-fname = 'socialnetworkfile.txt'
-pl_fname = 'peerleadersfile.txt'
-convert_fname = 'confirmedconversationsfile.txt'
+fname = A .txt file of all social ties between every single node in the group
+
+pl_fname = A .txt file of all the designate Peer Leaders in the group
+
+convert_fname = 
 nc_fname = 'noconversationsfile.txt'
 all_nodes_fname = 'allnodesfile.txt'
 
